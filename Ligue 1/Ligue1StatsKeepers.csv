@@ -1,0 +1,37 @@
+player,nationality,position,squad,age,birth_year,games_gk,games_starts_gk,minutes_gk,minutes_90s,goals_against_gk,goals_against_per90_gk,shots_on_target_against,saves,save_pct,wins_gk,draws_gk,losses_gk,clean_sheets,clean_sheets_pct,pens_att_gk,pens_allowed,pens_saved,pens_missed_gk,pens_save_pct,matches
+Saturnin Allagbé,bj BEN,GK,Dijon,27-083,1993,4,4,360,4.0,8,2.00,20,12,60.0,0,2,2,1,25.0,1,0,0,1,,Matches
+Walter Benítez,ar ARG,GK,Nice,27-331,1993,23,23,"2,070",23.0,31,1.35,104,77,76.0,8,5,10,7,30.4,6,6,0,0,0.0,Matches
+Paul Bernardoni,fr FRA,GK,Angers,23-301,1997,24,24,"2,160",24.0,37,1.54,90,56,62.2,10,4,10,5,20.8,4,3,1,0,25.0,Matches
+Dimitry Bertaud,fr FRA,GK,Montpellier,22-252,1998,6,4,475,5.3,8,1.52,21,13,66.7,2,1,1,2,50.0,1,1,0,0,0.0,Matches
+Marcin Bułka,pl POL,GK,Paris S-G,21-132,1999,1,1,90,1.0,1,1.00,3,2,66.7,0,0,1,0,0.0,0,0,0,0,,Matches
+Marc-Aurèle Caillard,fr FRA,GK,Metz,26-277,1994,2,1,91,1.0,1,0.99,6,5,83.3,0,0,1,0,0.0,0,0,0,0,,Matches
+Sébastien Cibois,fr FRA,GK,Brest,22-348,1998,1,1,90,1.0,1,1.00,4,3,75.0,1,0,0,0,0.0,0,0,0,0,,Matches
+Benoît Costil,fr FRA,GK,Bordeaux,33-225,1987,24,24,"2,160",24.0,30,1.25,93,66,71.0,9,5,10,11,45.8,4,3,1,0,25.0,Matches
+Yehvann Diouf,fr FRA,GK,Reims,21-089,1999,2,1,135,1.5,1,0.67,5,5,100.0,0,0,1,0,0.0,1,1,0,0,0.0,Matches
+Matthieu Dreyer,fr FRA,GK,Lorient,31-330,1989,5,5,450,5.0,7,1.40,18,13,72.2,3,1,1,1,20.0,2,2,0,0,0.0,Matches
+Wuilker Faríñez,ve VEN,GK,Lens,22-364,1998,1,0,6,0.1,1,15.00,0,0,,0,0,0,0,,1,1,0,0,0.0,Matches
+Alfred Gomis,sn SEN,GK,Dijon,27-161,1993,5,5,450,5.0,10,2.00,24,18,70.8,0,1,4,0,0.0,3,3,0,0,0.0,Matches
+Alfred Gomis,sn SEN,GK,Rennes,27-161,1993,7,7,630,7.0,9,1.29,25,16,64.0,1,3,3,1,14.3,0,0,0,0,,Matches
+Bingourou Kamara,sn SEN,GK,Strasbourg,24-115,1996,8,8,720,8.0,14,1.75,31,19,58.1,2,0,6,2,25.0,1,1,0,0,0.0,Matches
+Eiji Kawashima,jp JPN,GK,Strasbourg,37-330,1983,16,16,"1,440",16.0,25,1.56,69,46,68.1,5,4,7,5,31.3,5,3,1,1,25.0,Matches
+Alban Lafont,fr FRA,GK,Nantes,22-021,1999,24,24,"2,160",24.0,39,1.62,106,74,69.8,3,10,11,3,12.5,8,7,0,1,0.0,Matches
+Gautier Larsonneur,fr FRA,GK,Brest,23-356,1997,23,23,"2,070",23.0,43,1.87,112,73,67.0,8,3,12,4,17.4,6,6,0,0,0.0,Matches
+Jean-Louis Leca,fr FRA,GK,Lens,35-145,1985,24,24,"2,154",23.9,32,1.34,81,55,65.4,10,6,8,7,29.2,5,4,1,0,20.0,Matches
+Benjamin Lecomte,fr FRA,GK,Monaco,29-293,1991,14,14,"1,260",14.0,20,1.43,39,21,53.8,9,2,3,3,21.4,2,2,0,0,0.0,Matches
+Anthony Lopes,pt POR,GK,Lyon,30-135,1990,24,24,"2,160",24.0,20,0.83,70,55,75.7,15,7,2,9,37.5,6,3,2,1,40.0,Matches
+Mike Maignan,fr FRA,GK,Lille,25-077,1995,24,24,"2,160",24.0,15,0.62,66,52,78.8,16,6,2,13,54.2,1,1,0,0,0.0,Matches
+Radosław Majecki,pl POL,GK,Monaco,21-089,1999,1,1,90,1.0,1,1.00,2,1,50.0,1,0,0,0,0.0,0,0,0,0,,Matches
+Steve Mandanda,fr FRA,GK,Marseille,35-322,1985,21,21,"1,890",21.0,24,1.14,68,47,67.6,9,6,6,5,23.8,2,2,0,0,0.0,Matches
+Vito Mannone,it ITA,GK,Monaco,32-348,1988,9,9,810,9.0,14,1.56,30,18,60.0,5,1,3,2,22.2,2,2,0,0,0.0,Matches
+Edouard Mendy,sn SEN,GK,Rennes,28-349,1992,1,1,90,1.0,1,1.00,1,0,0.0,0,1,0,0,0.0,0,0,0,0,,Matches
+Jessy Moulin,fr FRA,GK,Saint-Étienne,35-031,1986,24,24,"2,160",24.0,36,1.50,87,53,62.1,6,8,10,7,29.2,3,3,0,0,0.0,Matches
+Paul Nardi,fr FRA,GK,Lorient,26-271,1994,18,18,"1,620",18.0,37,2.06,87,54,60.9,3,3,12,2,11.1,4,3,0,1,0.0,Matches
+Keylor Navas,cr CRC,GK,Paris S-G,34-060,1986,16,16,"1,395",15.5,7,0.45,42,36,85.7,12,2,2,11,68.8,2,1,1,0,50.0,Matches
+Jonas Omlin,ch SUI,GK,Montpellier,27-034,1994,20,20,"1,683",18.7,36,1.93,83,57,68.7,7,4,9,1,5.0,10,10,0,0,0.0,Matches
+Alexandre Oukidja,dz ALG,GK,Metz,32-209,1988,23,23,"2,069",23.0,22,0.96,81,62,76.5,9,8,6,7,30.4,4,3,1,0,25.0,Matches
+Yohann Pelé,fr FRA,GK,Marseille,38-101,1982,1,1,90,1.0,2,2.00,5,2,60.0,0,0,1,0,0.0,0,0,0,0,,Matches
+Anthony Racioppi,ch SUI,GK,Dijon,22-044,1998,15,15,"1,350",15.0,18,1.20,69,53,76.8,2,6,7,3,20.0,3,2,1,0,33.3,Matches
+Predrag Rajković,rs SRB,GK,Reims,25-105,1995,23,23,"2,025",22.5,31,1.38,87,59,66.7,7,7,9,6,26.1,4,2,2,0,50.0,Matches
+Baptiste Reynet,fr FRA,GK,Nîmes,30-108,1990,23,23,"2,070",23.0,51,2.22,122,76,63.1,4,3,16,4,17.4,9,6,2,1,25.0,Matches
+Sergio Rico,es ESP,GK,Paris S-G,27-165,1993,8,7,675,7.5,6,0.80,28,23,78.6,4,1,2,5,71.4,0,0,0,0,,Matches
+Romain Salin,fr FRA,GK,Rennes,36-199,1984,15,15,"1,350",15.0,14,0.93,54,40,74.1,9,4,2,5,33.3,0,0,0,0,,Matches

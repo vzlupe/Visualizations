@@ -1,0 +1,6 @@
+games,touches,touches_def_pen_area,touches_def_3rd,touches_mid_3rd,touches_att_3rd,touches_att_pen_area,touches_live_ball,dribbles_completed,dribbles,dribbles_completed_pct,players_dribbled_past,nutmegs,carries,carry_distance,carry_progressive_distance,progressive_carries,carries_into_final_third,carries_into_penalty_area,miscontrols,dispossessed
+360.0,631.5,70.7,222.6,302.1,146.2,22.5,583.1,9.8,16.4,59.6,10.6,0.68,392.2,2021.9,1078.1,39.7,12.0,3.8,13.1,12.1
+434.0,583.3,63.0,188.5,284.2,144.1,20.2,535.3,9.1,14.9,60.7,9.8,0.66,358.7,1822.1,975.5,38.7,11.4,3.4,11.4,10.6
+474.0,625.7,62.3,207.3,314.4,144.3,20.6,577.7,10.4,17.6,59.4,11.2,0.58,398.0,2052.3,1134.9,43.7,12.4,3.4,12.6,12.8
+450.0,621.1,65.4,203.2,293.5,162.4,23.5,576.5,9.6,16.1,60.0,10.3,0.7,387.3,2027.2,1103.4,43.8,13.1,4.1,11.2,11.1
+420.0,617.1,69.9,205.4,297.4,153.1,23.4,571.6,9.3,15.3,60.8,10.0,0.56,395.5,2105.7,1138.5,43.1,13.2,4.1,11.8,11.3

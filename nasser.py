@@ -9,28 +9,33 @@ def main():
 	slash = "\\"
 
 	stats = pd.read_csv(leagues1[league] + slash + leagues2[league] + "Stats.csv")
-	stats2 = stats.loc[(stats.xa>1.99)]
-	stats3 = stats2.loc[(stats.minutes>699)]
-
-	coef = np.polyfit(stats3["minutes"],stats3["xa"],1)
-	poly1d_fn = np.poly1d(coef)
+	stats2 = stats.loc[(stats.xg>0)]
+	stats3 = stats2.loc[(stats2.minutes>0)]
+	stats4 = stats3.loc[stats3["squad"] == "Southampton"]
+	stats5 = stats3.loc[stats3["squad"] == "Leeds United"]
+	combo = [stats4,stats5]
+	result = pd.concat(combo)
 
 	fig, ax = plt.subplots()
 	fig.set_size_inches(7,5)
-	plt.plot(stats3["minutes"],stats3["xa"],"o")
-	ax.set_title("xA/Min")
-	ax.set_ylabel("xA")
+
+	coef = np.polyfit(result["minutes"],result["xg"],1)
+	poly1d_fn = np.poly1d(coef)
+
+	plt.plot(result["minutes"],result["xg"],"o")
+	ax.set_title("xG/Min - Southampton & Leeds")
+	ax.set_ylabel("xG")
 	ax.set_xlabel("Minutes")
-	for x,y,p in zip(stats3["minutes"],stats3["xa"],stats3["player"]):
+	for x,y,p,z in zip(result["minutes"],result["xg"],result["player"],result["squad"]):
 		label = p
-		if (y>2.5):
+		if (y>0):
 			ax.annotate(label,
 						(x,y),
 						textcoords="offset points",
 						xytext=(0,4),
 						ha='center',
 						size=6)
-	plt.plot(stats3["minutes"], poly1d_fn(stats3["minutes"]), 'k-', linestyle = (0, (1, 10)), lw=1)
+	plt.plot(result["minutes"], poly1d_fn(result["minutes"]), 'k-', linestyle = (0, (1, 10)), lw=1)
 	plt.show()
 
 if __name__ == '__main__':

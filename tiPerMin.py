@@ -17,26 +17,26 @@ def main():
 	fig, ax = plt.subplots()
 	fig.set_size_inches(7,5)
 
-	coef = np.polyfit(defense3["tackles_interceptions"],defense3["minutes"],1)
+	coef = np.polyfit(defense3["minutes"],defense3["tackles_interceptions"],1)
 	poly1d_fn = np.poly1d(coef)
 
-	plt.plot(defense3["tackles_interceptions"],defense3["minutes"],"o")
+	plt.plot(defense3["minutes"],defense3["tackles_interceptions"],"o")
 	ax.set_title("Tackles & Interceptions/Min")
-	ax.set_xlabel("Tackles & Interceptions")
-	ax.set_ylabel("Minutes")
+	ax.set_ylabel("Tackles & Interceptions")
+	ax.set_xlabel("Minutes")
 
 
 
-	for x,y,p in zip(defense3["tackles_interceptions"],defense3["minutes"],defense3["player"]):
+	for x,y,p in zip(defense3["minutes"],defense3["tackles_interceptions"],defense3["player"]):
 		label = p
-		if (x>45):
+		if (y>45):
 			ax.annotate(label,
 						(x,y),
 						textcoords="offset points",
 						xytext=(0,4),
 						ha='center',
 						size=6)
-	plt.plot(defense3["tackles_interceptions"], poly1d_fn(defense3["tackles_interceptions"]), 'k-', linestyle = (0, (1, 10)), lw=1)
+	plt.plot(defense3["minutes"], poly1d_fn(defense3["minutes"]), 'k-', linestyle = (0, (1, 10)), lw=1)
 	plt.show()
 
 if __name__ == '__main__':

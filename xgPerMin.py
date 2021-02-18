@@ -14,20 +14,24 @@ def main():
 
 	fig, ax = plt.subplots()
 	fig.set_size_inches(7,5)
-	plt.plot(stats3["xg"],stats3["minutes"],"o")
+
+	coef = np.polyfit(stats3["minutes"],stats3["xg"],1)
+	poly1d_fn = np.poly1d(coef)
+
+	plt.plot(stats3["minutes"],stats3["xg"],"o")
 	ax.set_title("xG/Min")
-	ax.set_xlabel("xG")
-	ax.set_ylabel("Minutes")
-	for x,y,p in zip(stats3["xg"],stats3["minutes"],stats3["player"]):
+	ax.set_ylabel("xG")
+	ax.set_xlabel("Minutes")
+	for x,y,p in zip(stats3["minutes"],stats3["xg"],stats3["player"]):
 		label = p
-		if (x>4.99):
+		if (y>4.99):
 			ax.annotate(label,
 						(x,y),
 						textcoords="offset points",
 						xytext=(0,4),
 						ha='center',
 						size=6)
-	plt.plot([2,13],[699,2000],'k-', linestyle = ":", lw=1)
+	plt.plot(stats3["minutes"], poly1d_fn(stats3["minutes"]), 'k-', linestyle = (0, (1, 10)), lw=1)
 	plt.show()
 
 if __name__ == '__main__':

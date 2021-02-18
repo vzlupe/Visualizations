@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
-	league = int(input("Choose league (0=Prem, 1=Bundes, 2=LaLiga, 3=SerieA, 4=Ligue1): "))
-	leagues1 = ["Premier League","Bundesliga","La Liga","Serie A","Ligue 1"]#,"Big 5"]
-	leagues2 = ["PremierLeagueStats","BundesligaStats","LaLigaStats","SerieAStats","Ligue1Stats"]#,"Big5Stats"]
+	league = int(input("Choose league (0=Prem, 1=Bundes, 2=LaLiga, 3=SerieA, 4=Ligue1, 5=Big5): "))
+	leagues1 = ["Premier League","Bundesliga","La Liga","Serie A","Ligue 1","Big 5"]
+	leagues2 = ["PremierLeagueStats","BundesligaStats","LaLigaStats","SerieAStats","Ligue1Stats","Big5Stats"]
 	slash = "\\"
 
 	stats = pd.read_csv(leagues1[league] + slash + leagues2[league] + "Stats.csv")
